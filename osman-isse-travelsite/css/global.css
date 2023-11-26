@@ -83,8 +83,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: 27rem;
-  min-width: 27rem;
+  width: 28rem;
+  min-width: 28rem;
 }
 .busines_title {
   color: #335576;
