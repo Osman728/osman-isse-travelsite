@@ -1,0 +1,121 @@
+
+/*  Hero section 
+*/
+.hero{
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 1rem 4rem 6.2rem;
+
+  }
+  .hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35rem;
+    text-align: left;
+ align-items: flex-start;
+padding-bottom: 5rem;
+
+  }
+
+.hero__solgan{
+    color: #335576;
+  font-size: 2.3rem;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+  margin: 0;
+}
+
+.hero__text{
+    color: #335576;
+    margin: 0.5rem 0;
+    width: 109%;
+    line-height: 150%;
+    font-size: 1rem;
+
+}
+.hero__button{
+background-color: #DB7A4E;
+ color: #fff;
+  border: none;
+  font-size: 1.0rem;
+  font-family: Verdana;
+  font-weight: 400;
+  border-radius: 40px;
+  padding: 0.62rem 2.6rem;
+  margin-top: 1.25rem;
+
+}
+img{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36vw;
+    height: auto;
+    margin-left: 4rem;
+}
+/*  Reccomdation section 
+*/
+.Recommendations{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 12rem;
+}
+.Recommendations_title{
+    color: #335576;
+    background: #fff;
+    font-size: 1.5rem;
+    margin: 1.25rem 0rem 1.25rem -4rem;
+}
+.card_component{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%
+}
+
+.hoilday_card{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-sizing: content-box;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+  background-clip:content-box;
+  width: 300px;
+  height: 450px;
+}
+
+.hoilday_card:hover {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);}
+
+.hoilday_place{
+      padding-right: 1.5rem; 
+      font-size: 1.5rem;
+      font-weight: 600;
+}
+.card__link {
+      text-decoration: none;
+      
+    }
+
+.hoilday__card--Hawaii{ background-image: url(../assets/images/hawaii.jpg);
+    background-size: cover;
+
+}
+
+.hoilday__card--Iceland{background-image: url(../assets/images/iceland.jpg);
+    background-size: cover;
+
+}
+
+.hoilday__card--Greece{background-image: url(../assets/images/greece.jpg);
+    background-size: cover;
+
+}
