@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+/*  Header 
+*/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 5.5rem 0 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 62px;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  padding-left: 1.25rem;
+}
+
+.nav__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #335576;
+}
+
+.nav_t {
+  text-decoration: none;
+  color: #335576;
+}
+.nav__list {
+  list-style-type: none;
+  display: flex;
+}
+.nav__list-item {
+  padding: 0rem 0.5rem 0 0.5rem;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #393939;
+}
+.nav_link--highlighted {
+  border-bottom: 4px solid #db7a4e;
+  color: #393939;
+  padding-bottom: 0.56rem;
+  text-decoration: none;
+}
+
+/*  Footer 
+*/
+
+.busines_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fefaf5;
+  padding: 2rem 7rem;
+}
+.busines_footer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0rem 5rem 0rem 4rem;
+}
+.busines_hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 27rem;
+  min-width: 27rem;
+}
+.busines_title {
+  color: #335576;
+  text-align: left;
+  padding-top: 1.25rem;
+  margin: 1.25rem 1.25rem 1.25rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.busines_subtitle {
+  color: #db7a4e;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  margin-bottom: 0rem;
+}
+.busines_content {
+  color: #335576;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin: 0.6rem 0;
+}
+
+.busines_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1.6rem;
+}
+
+.busines_icon {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1.5rem;
+  margin: -0.15rem 0rem 0rem 0rem;
+}
+.busines_icon-last {
+  padding-right: 0;
+}
+
+.busines_subtitle-new {
+  margin-top: 1.81rem;
+}
+.busines_content-new {
+  margin-top: 0.65rem;
+}
